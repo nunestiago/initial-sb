@@ -10,6 +10,7 @@ import javax.validation.constraints.NotBlank;
 
 @Entity
 public class Produto {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -24,7 +25,12 @@ public class Produto {
     @Max(1)
     private double desconto;
 
+    public Produto() {
+
+    }
+
     public Produto(String nome, double preco, double desconto) {
+        super();
         this.nome = nome;
         this.preco = preco;
         this.desconto = desconto;
