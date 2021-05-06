@@ -1,4 +1,4 @@
-package com.sunkenship.exerciciossb.models;
+package com.sunkenship.exerciciossb.model.entities;
 
 public class Cliente {
     private int id;

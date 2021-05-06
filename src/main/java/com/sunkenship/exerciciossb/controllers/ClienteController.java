@@ -1,6 +1,6 @@
 package com.sunkenship.exerciciossb.controllers;
 
-import com.sunkenship.exerciciossb.models.Cliente;
+import com.sunkenship.exerciciossb.model.entities.Cliente;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
